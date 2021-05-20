@@ -1,0 +1,68 @@
+
+l
+java:S1192{"JDefine a constant instead of duplicating this literal "module#%s" 6 times.(¹Û©üÿÿÿÿ8­ãÑÚ—/
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(¬·Ñúÿÿÿÿ8ìëÅØ—/
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(Ÿ±™üÿÿÿÿ8ìëÅØ—/
+V	java:S106”"9Replace this use of System.out or System.err by a logger.(–•Ó8òÏÆÚ—/
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(Ÿƒ‡Îüÿÿÿÿ8ìëÅØ—/
+V	java:S106ñ"9Replace this use of System.out or System.err by a logger.(ëƒ§’8ÍÔÎô—/
+V	java:S106Ù"9Replace this use of System.out or System.err by a logger.(²ƒ«ñ8»çëñ—/
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(Åƒ€Æ8ìëÅØ—/
+[	java:S106ì"9Replace this use of System.out or System.err by a logger.(š½âÆıÿÿÿÿ8±•”ò—/
+U	java:S106S"9Replace this use of System.out or System.err by a logger.(èâ à8ìëÅØ—/
+V	java:S106 "9Replace this use of System.out or System.err by a logger.(ßŠ«Ä8Ã«İ—/
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(’œ“ìıÿÿÿÿ8ìëÅØ—/
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(äğÑÜøÿÿÿÿ8ìëÅØ—/
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(åÉÇßıÿÿÿÿ8ìëÅØ—/
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(äÎéÚÿÿÿÿÿ8ìëÅØ—/
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(¥¢èııÿÿÿÿ8ìëÅØ—/
+U	java:S106I"9Replace this use of System.out or System.err by a logger.(’²„–8ìëÅØ—/
+Z	java:S106^"9Replace this use of System.out or System.err by a logger.(†Èæıÿÿÿÿ8ìëÅØ—/
+[	java:S106º"9Replace this use of System.out or System.err by a logger.(¨º×ıÿÿÿÿ8Ã«İ—/
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(¾±”û8ìëÅØ—/
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(…Ã¸ÿşÿÿÿÿ8ìëÅØ—/
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ıŸŒ÷ıÿÿÿÿ8ìëÅØ—/
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(”ãìşÿÿÿÿ8ìëÅØ—/
+V	java:S106¸"9Replace this use of System.out or System.err by a logger.(„íí8Ã«İ—/
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(ó‘£Êüÿÿÿÿ8ìëÅØ—/
+o
+java:S3776Z"RRefactor this method to reduce its Cognitive Complexity from 94 to the 15 allowed.(Çµí‘8˜‡Ú—/
+U	java:S106L"9Replace this use of System.out or System.err by a logger.(è¬ëó8ìëÅØ—/
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(éí÷„ùÿÿÿÿ8ìëÅØ—/
+z	java:S135b"YReduce the total number of break and continue statements in this loop to use at most one.(Ìî–üÿÿÿÿ8“Û—/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(¼ğ‹†øÿÿÿÿ8‹óúñ—/
+V	java:S106Î"9Replace this use of System.out or System.err by a logger.(ÉàÙ8Ã«İ—/
+d
+java:S1192~"GDefine a constant instead of duplicating this literal "module" 5 times.(•ï§æ8ú¿İ—/
+[	java:S106Û"9Replace this use of System.out or System.err by a logger.(îßÂúÿÿÿÿÿ8Ãêõñ—/
+t
+java:S3457ì"Q%n should be used in place of \n to produce the platform-specific line separator.(š½âÆıÿÿÿÿ8±•”ò—/
+U	java:S106K"9Replace this use of System.out or System.err by a logger.(ÿİœá8ìëÅØ—/
+[	java:S106ê"9Replace this use of System.out or System.err by a logger.(§“Íùÿÿÿÿ8±•”ò—/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(…Ã¸ÿşÿÿÿÿ8ìëÅØ—/
+f
+java:S1192k"IDefine a constant instead of duplicating this literal "grade#%s" 6 times.(ĞË®Â8¶†Ÿİ—/
+h
+java:S1192*"FDefine a constant instead of duplicating this literal "group" 3 times.(ÆÌÓ®ÿÿÿÿÿ8…ÉòÚ—/
+V
+java:S1854"9Remove this useless assignment to local variable "grade".(„Çüø8Ûñ™ô—/
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(’éÁ·ıÿÿÿÿ8ìëÅØ—/
+U	java:S106O"9Replace this use of System.out or System.err by a logger.(‚¥•ø8ìëÅØ—/
+V	java:S106À"9Replace this use of System.out or System.err by a logger.(–Ä÷8Ã«İ—/
+V	java:S106¦"9Replace this use of System.out or System.err by a logger.(–•Ó8Ã«İ—/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ûïØİúÿÿÿÿ8ìëÅØ—/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Â£şÿÿÿÿ8ìëÅØ—/
+U	java:S1065"9Replace this use of System.out or System.err by a logger.(¾±”û8ìëÅØ—/
+j
+java:S1192i"HDefine a constant instead of duplicating this literal "student" 8 times.(ªÀÊñÿÿÿÿÿ8éò—İ—/
+[	java:S106Â"9Replace this use of System.out or System.err by a logger.(¨º×ıÿÿÿÿ8í„¼Û—/
+s
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ûïØİúÿÿÿÿ8ìëÅØ—/
+T	java:S106C"9Replace this use of System.out or System.err by a logger.(ñ‰©@8ìëÅØ—/
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(Ã£†Œ8ìëÅØ—/
+U	java:S106q"9Replace this use of System.out or System.err by a logger.(ßŠ«Ä8àËıÙ—/
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(éí÷„ùÿÿÿÿ8ìëÅØ—/
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(Ÿ„†Ïúÿÿÿÿ8ìëÅØ—/
+m
+java:S1192f"KDefine a constant instead of duplicating this literal "student#%s" 9 times.(›øšşÿÿÿÿ8àËıÙ—/
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(±Š 8ìëÅØ—/
