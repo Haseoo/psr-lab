@@ -1,0 +1,33 @@
+
+d
+java:S11921"GDefine a constant instead of duplicating this literal "grades" 6 times.(å£Ñÿ8ÔÉõ™›/
+v
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥‚¯¡8ÔÉõ™›/
+Z	java:S106l"9Replace this use of System.out or System.err by a logger.(âãÃ ÿÿÿÿÿ8ÔÉõ™›/
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(¢ÿ¤ß8ÔÉõ™›/
+T	java:S106Q"9Replace this use of System.out or System.err by a logger.(™Ğ¦$8ÔÉõ™›/
+c
+java:S1192/"FDefine a constant instead of duplicating this literal "names" 5 times.(¢‹å8ÔÉõ™›/
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(÷“ğÿÿÿÿÿ8ÔÉõ™›/
+U	java:S106o"9Replace this use of System.out or System.err by a logger.(ØÇíÅ8ÔÉõ™›/
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(¯®ê‹8ÔÉõ™›/
+Z	java:S106e"9Replace this use of System.out or System.err by a logger.(ˆùà±øÿÿÿÿ8ÔÉõ™›/
+j
+java:S3973I"HUse indentation to denote the code conditionally executed by this "for".(ê¿æüÿÿÿÿ8ÔÉõ™›/
+U	java:S106L"9Replace this use of System.out or System.err by a logger.(ÁœÒÈ8ÔÉõ™›/
+Z	java:S106_"9Replace this use of System.out or System.err by a logger.(²ª”•ÿÿÿÿÿ8ÔÉõ™›/
+j
+java:S3973N"HUse indentation to denote the code conditionally executed by this "for".(ê¿æüÿÿÿÿ8ÔÉõ™›/
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(ÿ€Ğÿÿÿÿÿ8ÔÉõ™›/
+U	java:S106z"9Replace this use of System.out or System.err by a logger.(û ‘8ÔÉõ™›/
+Z	java:S106h"9Replace this use of System.out or System.err by a logger.(·µ–¤ûÿÿÿÿ8ÔÉõ™›/
+Z	java:S106q"9Replace this use of System.out or System.err by a logger.(­Ñüúÿÿÿÿ8ÔÉõ™›/
+U	java:S106x"9Replace this use of System.out or System.err by a logger.(‘ÁÉ²8ÔÉõ™›/
+U	java:S106Y"9Replace this use of System.out or System.err by a logger.(§¢Ê¤8ÔÉõ™›/
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(³«ˆÓüÿÿÿÿ8ÔÉõ™›/
+f
+java:S1192."IDefine a constant instead of duplicating this literal "lastname" 4 times.(˜»Èé8ÔÉõ™›/
+U	java:S106u"9Replace this use of System.out or System.err by a logger.(†Éş¿8ÔÉõ™›/
+p
+java:S1192J"SDefine a constant instead of duplicating this literal "grades.programming" 3 times.(°•È8ÔÉõ™›/
+Z	java:S106b"9Replace this use of System.out or System.err by a logger.(§ó¿êûÿÿÿÿ8ÔÉõ™›/
