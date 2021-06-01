@@ -1,13 +1,10 @@
 package pl.kielce.tu.mongodb;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.json.JsonMapper;
 import com.mongodb.BasicDBObject;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
-import com.mongodb.client.MongoDatabase;
-import com.mongodb.client.model.Filters;
 import com.mongodb.client.model.Updates;
 import lombok.SneakyThrows;
 import org.bson.Document;
@@ -129,28 +126,27 @@ public class Main {
         var mapper = new ObjectMapper();
         int option = -1;
         while (option != 15) {
+            if (option != -1) {
+                System.in.read();
+            }
             option = selectOperation();
 
-            if(option == 1) {
+            if (option == 1) {
                 var driver = new BusDriver();
                 driver.setId(rnd.nextInt(7000));
                 fillBusDriver(driver);
                 drivers.insertOne(Document.parse(mapper.writeValueAsString(driver)));
-            }
-
-            else if (option == 2) {
+            } else if (option == 2) {
                 var id = getId("driver");
                 var driver = drivers.find(eq("_id", id)).first();
                 if (driver != null && !driver.isEmpty()) {
                     deleteCourses(drivers, routes, driver);
                     drivers.deleteOne(eq("_id", id));
                 }
-            }
-
-            else if(option == 3) {
+            } else if (option == 3) {
                 var id = getId("driver");
                 var document = drivers.find(eq("_id", id)).first();
-                if(document == null || document.isEmpty()) {
+                if (document == null || document.isEmpty()) {
                     System.out.println("Not found");
                     continue;
                 }
@@ -159,34 +155,26 @@ public class Main {
                 var doc = Document.parse(mapper.writeValueAsString(driver));
                 drivers.updateOne(eq("_id", driver.getId()),
                         new Document("$set", doc));
-            }
-
-            else if (option == 4) {
+            } else if (option == 4) {
                 for (Document document : drivers.find()) {
                     System.out.println(document.toJson());
                 }
-            }
-
-            else if(option == 5) {
+            } else if (option == 5) {
                 var route = new BusRoute();
                 route.setId(rnd.nextInt(7000));
                 fillRoute(route);
                 routes.insertOne(Document.parse(mapper.writeValueAsString(route)));
-            }
-
-            else if(option == 6) {
+            } else if (option == 6) {
                 var id = getId("route");
                 var route = routes.find(eq("_id", id)).first();
                 if (route != null && !route.isEmpty()) {
                     deleteCourses(drivers, routes, route);
                     routes.deleteOne(eq("_id", id));
                 }
-            }
-
-            else if(option == 7) {
+            } else if (option == 7) {
                 var id = getId("route");
                 var document = routes.find(eq("_id", id)).first();
-                if(document == null || document.isEmpty()) {
+                if (document == null || document.isEmpty()) {
                     System.out.println("Not found");
                     continue;
                 }
@@ -195,25 +183,21 @@ public class Main {
                 var doc = Document.parse(mapper.writeValueAsString(route));
                 routes.updateOne(eq("_id", route.getId()),
                         new Document("$set", doc));
-            }
-
-            else if (option == 8) {
+            } else if (option == 8) {
                 for (Document document : routes.find()) {
                     System.out.println(document.toJson());
                 }
-            }
-
-            else if(option == 9) {
+            } else if (option == 9) {
                 var course = new BusCourse();
                 var driverId = getId("driver");
                 var driverDocument = drivers.find(eq("_id", driverId)).first();
-                if(driverDocument == null || driverDocument.isEmpty()) {
+                if (driverDocument == null || driverDocument.isEmpty()) {
                     System.out.println("Not found");
                     continue;
                 }
                 var routeId = getId("route");
                 var routeDocument = routes.find(eq("_id", routeId)).first();
-                if(routeDocument == null || routeDocument.isEmpty()) {
+                if (routeDocument == null || routeDocument.isEmpty()) {
                     System.out.println("Not found");
                     continue;
                 }
@@ -223,42 +207,32 @@ public class Main {
                 drivers.updateOne(driverDocument, Updates.push("courses", courseDoc));
                 routes.updateOne(routeDocument, Updates.push("courses", courseDoc));
                 System.out.printf("Added course with id %s%n", course.getId());
-            }
-
-            else if(option == 10) {
+            } else if (option == 10) {
                 var courseId = getId("course");
                 deleteCourse(drivers, routes, courseId);
-            }
-
-            else if(option == 11) {
+            } else if (option == 11) {
                 var id = getId("driver");
                 var document = drivers.find(eq("_id", id)).first();
-                if(document == null || document.isEmpty()) {
+                if (document == null || document.isEmpty()) {
                     System.out.println("Not found");
                     continue;
                 }
                 System.out.println(document.toJson());
-            }
-
-            else if(option == 12) {
+            } else if (option == 12) {
                 var id = getId("route");
                 var document = routes.find(eq("_id", id)).first();
-                if(document == null || document.isEmpty()) {
+                if (document == null || document.isEmpty()) {
                     System.out.println("Not found");
                     continue;
                 }
                 System.out.println(document.toJson());
-            }
-
-            else if(option == 13) {
+            } else if (option == 13) {
                 var place = getRouteFrom();
                 System.out.println(place);
                 for (Document route : routes.find(eq("from", place))) {
                     System.out.println(route.toJson());
                 }
-            }
-
-            else if (option == 14) {
+            } else if (option == 14) {
                 var driversToUpdate = drivers.find(and(gt("age", 50), lt("age", 80)));
                 for (Document document : driversToUpdate) {
                     var increase = document.get("age", Integer.class) + 50;
@@ -268,7 +242,7 @@ public class Main {
                 }
             }
 
-            System.in.read();
+
         }
         mongoClient.close();
     }
@@ -281,7 +255,7 @@ public class Main {
     }
 
     private static void deleteCourse(MongoCollection<Document> drivers, MongoCollection<Document> routes, int courseId) {
-        var match =  new BasicDBObject("_id", courseId);
+        var match = new BasicDBObject("_id", courseId);
         var routesWithCourse = routes.find(elemMatch("courses", match));
         var driversWithCourse = drivers.find(elemMatch("courses", match));
         for (Document document : routesWithCourse) {

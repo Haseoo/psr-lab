@@ -64,7 +64,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>pl.kielce.tu.mongodb.TestMongoDB</mainClass>
+                    <mainClass>pl.kielce.tu.mongodb.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
