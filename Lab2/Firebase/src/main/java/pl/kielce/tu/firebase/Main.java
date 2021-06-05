@@ -118,7 +118,7 @@ public class Main {
 
     @SneakyThrows
     public static void main(String[] args) throws IOException {
-        var serviceAccount = new FileInputStream("C:\\Users\\dawid\\Desktop/key.json");
+        var serviceAccount = new FileInputStream("/home/dawid/Desktop/key.json");
 
         var options = FirebaseOptions.builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
