@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/../Cassandra/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Cassandra/src/main/java/pl/kielce/tu/weaii/psr/cassandra/KeyspaceBuilderManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Cassandra/src/main/java/pl/kielce/tu/weaii/psr/cassandra/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Cassandra/src/main/java/pl/kielce/tu/weaii/psr/cassandra/NonEmptyHashData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Cassandra/src/main/java/pl/kielce/tu/weaii/psr/cassandra/NonEmptyHashMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Cassandra/src/main/java/pl/kielce/tu/weaii/psr/cassandra/NonNullHashMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Cassandra/src/main/java/pl/kielce/tu/weaii/psr/cassandra/TableBuilderManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Cassandra/src/main/java/pl/kielce/tu/weaii/psr/cassandra/TableManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
