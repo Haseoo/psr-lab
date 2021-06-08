@@ -1,0 +1,8 @@
+
+z
+java:S14889"_Immediately return this expression instead of assigning it to the temporary variable "student".(£ÐçÙøÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
+n
+java:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").(Åá£m
+o
+java:S22936"YReplace the type specification in this constructor call with the diamond operator ("<>").(Êµèå

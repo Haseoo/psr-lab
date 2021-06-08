@@ -48,6 +48,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../Lab3/Cassandra/src/main/java/pl/kielce/tu/weaii/psr/cassandra/KeyspaceBuilderManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Lab3/Cassandra/src/main/java/pl/kielce/tu/weaii/psr/cassandra/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Lab3/Cassandra/src/main/java/pl/kielce/tu/weaii/psr/cassandra/TableBuilderManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../../to-ocm/pom.xml">
           <value>
             <set />

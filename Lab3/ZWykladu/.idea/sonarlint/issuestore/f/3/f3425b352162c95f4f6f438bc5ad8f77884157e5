@@ -1,0 +1,20 @@
+
+^
+java:S1192!"HDefine a constant instead of duplicating this literal "student" 7 times.(¹È–Ç
+c
+java:S1192"HDefine a constant instead of duplicating this literal "address" 6 times.(İƒàôşÿÿÿÿ
+a
+java:S1192'"FDefine a constant instead of duplicating this literal "marks" 4 times.(¬ßæèøÿÿÿÿ
+[
+java:S1192#"FDefine a constant instead of duplicating this literal "names" 4 times.(”ÔÏF
+b
+java:S1192&"GDefine a constant instead of duplicating this literal "awards" 4 times.(© É€ûÿÿÿÿ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(¯îÄøÿÿÿÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(æøûÿÿÿÿ
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(³íœ±ùÿÿÿÿ
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(×©²ôûÿÿÿÿ
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(¾ıÓ¾üÿÿÿÿ
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(¤ùÉª
+S	java:S106U"9Replace this use of System.out or System.err by a logger.( ÍÖ€şÿÿÿÿ
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106X"9Replace this use of System.out or System.err by a logger.(ˆÖƒƒ

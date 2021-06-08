@@ -1,0 +1,13 @@
+C:\Users\dawid\source\repos\SiaqoHomework\bin\Release\packages\Siaqodb.5.5.0.12\build\native\win\lmdb32.dll
+C:\Users\dawid\source\repos\SiaqoHomework\bin\Release\packages\Siaqodb.5.5.0.12\build\native\win\lmdb64.dll
+C:\Users\dawid\source\repos\SiaqoHomework\bin\Release\SiaqoHomework.exe.config
+C:\Users\dawid\source\repos\SiaqoHomework\bin\Release\SiaqoHomework.exe
+C:\Users\dawid\source\repos\SiaqoHomework\bin\Release\SiaqoHomework.pdb
+C:\Users\dawid\source\repos\SiaqoHomework\bin\Release\Siaqodb.dll
+C:\Users\dawid\source\repos\SiaqoHomework\bin\Release\SiaqodbPortable.dll
+C:\Users\dawid\source\repos\SiaqoHomework\bin\Release\Siaqodb.xml
+C:\Users\dawid\source\repos\SiaqoHomework\bin\Release\SiaqodbPortable.xml
+C:\Users\dawid\source\repos\SiaqoHomework\obj\Release\SiaqoHomework.csproj.CoreCompileInputs.cache
+C:\Users\dawid\source\repos\SiaqoHomework\obj\Release\SiaqoHomework.csproj.CopyComplete
+C:\Users\dawid\source\repos\SiaqoHomework\obj\Release\SiaqoHomework.exe
+C:\Users\dawid\source\repos\SiaqoHomework\obj\Release\SiaqoHomework.pdb
