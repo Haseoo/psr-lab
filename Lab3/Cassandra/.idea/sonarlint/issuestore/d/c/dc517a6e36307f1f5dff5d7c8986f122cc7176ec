@@ -1,0 +1,61 @@
+
+]
+java:S1192i"GDefine a constant instead of duplicating this literal "member" 5 times.(È‹É±
+b
+java:S1192m"GDefine a constant instead of duplicating this literal "failed" 3 times.(€íé´ùÿÿÿÿ
+]
+java:S1192k"HDefine a constant instead of duplicating this literal "success" 5 times.(ùø¼
+S	java:S106"9Replace this use of System.out or System.err by a logger.(’œ“ìıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¼ÆŸúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¨‚€ê
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¹ÿÂîşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©µ„¤
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¬’ë½øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ğó¦´
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¢ñÚÁ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‘ƒ–Ûşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÊíÀ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¬ı®óøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(íæÌà
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¢Œ×ïÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÛŸé¢üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(œÀ¤
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ç¢
+E
+java:S6212"/Declare this local variable with "var" instead.(ÅÒ²º
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(èâ à
+E
+java:S6212("/Declare this local variable with "var" instead.(ÅÒ²º
+l
+java:S3457)"Q%n should be used in place of \n to produce the platform-specific line separator.(ûïØİúÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ûïØİúÿÿÿÿ
+E
+java:S6212."/Declare this local variable with "var" instead.(ÅÒ²º
+g
+java:S3457/"Q%n should be used in place of \n to produce the platform-specific line separator.(·Ã§¦
+;
+java:S3457/"%String contains no format specifiers.(·Ã§¦
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(·Ã§¦
+E
+java:S62125"/Declare this local variable with "var" instead.(ÅÒ²º
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(¾±”û
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(äÎéÚÿÿÿÿÿ
+E
+java:S6212?"/Declare this local variable with "var" instead.(ÅÒ²º
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(¹¨Šá
+N	java:S106B"9Replace this use of System.out or System.err by a logger.(à‰ø
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(Éööşÿÿÿÿ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(¬”„Ğúÿÿÿÿ
+h
+java:S3776P"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(œû¿Ø
+M	java:S106k"9Replace this use of System.out or System.err by a logger.(ùø¼
+S	java:S106m"9Replace this use of System.out or System.err by a logger.(€íé´ùÿÿÿÿ
+M	java:S106u"9Replace this use of System.out or System.err by a logger.(ùø¼
+S	java:S106w"9Replace this use of System.out or System.err by a logger.(“æÍşÿÿÿÿ
+N	java:S106‰"9Replace this use of System.out or System.err by a logger.(ùø¼
+T	java:S106‹"9Replace this use of System.out or System.err by a logger.(€íé´ùÿÿÿÿ
+N	java:S106”"9Replace this use of System.out or System.err by a logger.(ùø¼
+T	java:S106–"9Replace this use of System.out or System.err by a logger.(“æÍşÿÿÿÿ
+N	java:S106¨"9Replace this use of System.out or System.err by a logger.(ùø¼
+T	java:S106ª"9Replace this use of System.out or System.err by a logger.(€íé´ùÿÿÿÿ
+O	java:S106¼"9Replace this use of System.out or System.err by a logger.(ÑíÇ£
