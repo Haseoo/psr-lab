@@ -43,6 +43,41 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../elasticsearch/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../elasticsearch/src/main/java/pl/kielce/tu/weaii/psr/elasticsearch/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../elasticsearch/src/main/java/pl/kielce/tu/weaii/psr/elasticsearch/entities/Animal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../elasticsearch/src/main/java/pl/kielce/tu/weaii/psr/elasticsearch/entities/Keeper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../elasticsearch/src/main/java/pl/kielce/tu/weaii/psr/elasticsearch/entities/Services/AnimalService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../elasticsearch/src/main/java/pl/kielce/tu/weaii/psr/elasticsearch/entities/Services/BaseService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../elasticsearch/src/main/java/pl/kielce/tu/weaii/psr/elasticsearch/entities/Services/KeeperService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
